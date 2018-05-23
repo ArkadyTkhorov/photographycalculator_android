@@ -1,0 +1,390 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#cccccc">
+
+
+    <RelativeLayout
+        android:id="@+id/rlCalRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/txtIso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/selectiso"
+            android:textColor="#ff000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerIso"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtIso"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:background="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGuideNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerIso"
+            android:layout_marginTop="10dp"
+            android:text="@string/enterguidenumber"
+            android:textColor="#ff000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtGuideNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtGuideNumber"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Guide Number"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <Spinner
+            android:id="@+id/spinner_unit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxtGuideNumber"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            android:background="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAperture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_unit"
+            android:layout_marginTop="10dp"
+            android:text="@string/enteraperture"
+            android:textColor="#ff000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtAperture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAperture"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Aperture"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <Button
+            android:id="@+id/rangeCalcButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxtAperture"
+            android:layout_marginTop="10dp"
+            android:text="@string/calculaterange"
+            android:textColor="@android:color/white"
+            android:background="@color/orange" />
+
+        <TextView
+            android:id="@+id/txtRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rangeCalcButton"
+            android:layout_marginTop="10dp"
+            android:text="@string/range"
+            android:textColor="#ff000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtRange"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:background="@android:color/white"
+            android:hint="Range"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlCalAperture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="FlashPrower Calculator Aperture"
+            android:textColor="#ff0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtIso1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:text="ISO"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerIso1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtIso1"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtRange1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerIso1"
+            android:layout_marginTop="10dp"
+            android:text="Range"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtRange1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtRange1"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginTop="10dp"
+            android:hint="range" />
+
+        <Spinner
+            android:id="@+id/spinner_unit_range"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxtRange1"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGuideNumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_unit_range"
+            android:layout_marginTop="10dp"
+            android:text="Guide Number"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtGuideNumber1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtGuideNumber1"
+            android:layout_marginTop="10dp"
+            android:hint="Guidenumber"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <Spinner
+            android:id="@+id/spinner_guide_unit1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxtGuideNumber1"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/apertureCalcButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_guide_unit1"
+            android:layout_marginTop="10dp"
+            android:text="calculate"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAperture1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/apertureCalcButton"
+            android:layout_marginTop="10dp"
+            android:text="Aperture"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtAperture1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAperture1"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:hint="aperture"
+            android:inputType="numberDecimal|numberSigned" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlCalGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="FlashPrower Calculator Guide"
+            android:textColor="#ff0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtIso2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="10dp"
+            android:text="ISO"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerIso2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtIso2"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtRange2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerIso2"
+            android:layout_marginTop="10dp"
+            android:text="Range"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtRange2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtRange2"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="range" />
+
+        <Spinner
+            android:id="@+id/spinner_unit_range2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxtRange2"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAperture2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_unit_range2"
+            android:layout_marginTop="10dp"
+            android:text="Aperture"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtAperture2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAperture2"
+            android:layout_marginTop="10dp"
+            android:hint="aperture"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/txtGuideNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guideCalcButton"
+            android:layout_marginTop="10dp"
+            android:text="Guide Number"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtGuideNumber2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtGuideNumber2"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:hint="Guidenumber"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <Spinner
+            android:id="@+id/spinner_unit_guide2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxtGuideNumber2"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/guideCalcButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxtAperture2"
+            android:layout_marginTop="10dp"
+            android:text="calculate"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

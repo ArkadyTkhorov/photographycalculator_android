@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="display_types_name">
+        <item>@string/angle</item>
+        <item>@string/inclination</item>
+        <item>@string/roof_pitch</item>
+    </string-array>
+
+    <string-array name="display_types">
+        <item>ANGLE</item>
+        <item>INCLINATION</item>
+        <item>ROOF_PITCH</item>
+    </string-array>
+
+    <string-array name="viscosities_name">
+        <item>@string/viscosity_low</item>
+        <item>@string/viscosity_medium</item>
+        <item>@string/viscosity_high</item>
+    </string-array>
+
+    <string-array name="viscosities">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+
+    <string-array name="configs_name">
+        <item>@string/config_switch_horizontally</item>
+        <item>@string/config_switch_vertically</item>
+        <item>@string/config_rotate_axis</item>
+    </string-array>
+
+    <string-array name="fpc_iso">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+        <item>6400</item>
+        <item>12800</item>
+        <item>25600</item>
+    </string-array>
+    <string-array name="fpc_guide_units">
+        <item>meters</item>
+        <item>feet</item>
+    </string-array>
+
+
+    <string-array name="colors">
+        <item />
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>teal</item>
+        <item>brown</item>
+        <item>gray</item>
+        <item>white</item>
+        <item>black</item>
+
+
+    </string-array>
+
+    <string-array name="image_types">
+        <item />
+        <item>photo</item>
+        <item>face</item>
+    </string-array>
+
+    <string-array name="aperture">
+        <item>1.0</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+        <item>1.8</item>
+        <item>2.0</item>
+        <item>2.2</item>
+        <item>2.5</item>
+        <item>2.8</item>
+        <item>3.2</item>
+        <item>3.5</item>
+        <item>4.0</item>
+        <item>4.5</item>
+        <item>5.0</item>
+        <item>5.6</item>
+        <item>6.3</item>
+        <item>7.1</item>
+        <item>8.0</item>
+        <item>9.0</item>
+        <item>10.0</item>
+        <item>12.0</item>
+        <item>14.0</item>
+        <item>16.0</item>
+        <item>18.0</item>
+        <item>20.0</item>
+        <item>22.0</item>
+        <item>25.0</item>
+        <item>29.0</item>
+        <item>32.0</item>
+        <item>36.0</item>
+        <item>40.0</item>
+        <item>45.0</item>
+        <item>51.0</item>
+        <item>57.0</item>
+        <item>60.0</item>
+        <item>62.0</item>
+        <item>64.0</item>
+        <item>66.0</item>
+        <item>68.0</item>
+        <item>70.0</item>
+
+    </string-array>
+
+    <string-array name="circle_of_confusion">
+        <item>0.030</item>
+        <item>0.023</item>
+        <item>0.020</item>
+        <item>0.019</item>
+        <item>0.010</item>
+    </string-array>
+
+    <string-array name="webFilterSpinnerValue">
+        <item>Animal</item>
+        <item>Astro</item>
+        <item>Bridal</item>
+        <item>Commercial</item>
+        <item>Engagement</item>
+        <item>Family</item>
+        <item>Fashion</item>
+        <item>Fine Art</item>
+        <item>Forensic</item>
+        <item>Glamour</item>
+        <item>Groom</item>
+        <item>Infrared</item>
+        <item>Landscape</item>
+        <item>Macro</item>
+        <item>Maternity</item>
+        <item>Model</item>
+        <item>Nature</item>
+        <item>Night</item>
+        <item>Panoramic</item>
+        <item>Pinhole</item>
+        <item>Real Estate</item>
+        <item>Seascape</item>
+        <item>Sport</item>
+        <item>Swimsuit</item>
+        <item>Time-lapse</item>
+        <item>Travel</item>
+
+
+        <item>Wedding</item>
+    </string-array>
+
+    -
+    <string name="empty_title">
+
+    <![CDATA[< empty >]]>
+
+    </string>
+
+    <!-- CHANGELOG STRINGS -->
+    <string name="changelog_full_title">What\'s New</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">more...</string>
+
+    <string-array name="unit_names">
+        <item>Celsius (Metric system)</item>
+        <item>Fahrenheit (Imperial system)</item>
+    </string-array>
+    <string-array name="unit_values">
+        <item>c</item>
+        <item>f</item>
+    </string-array>
+    <string-array name="lang_names">
+        <item>English</item>
+        <item>Current system language</item>
+    </string-array>
+    <string-array name="lang_values">
+        <item>en</item>
+        <item>system</item>
+    </string-array>
+
+    <!-- weather condition array do not change-->
+    <string-array name="weather_array">
+        <item>Thunderstorm</item>
+        <item>Drizzle</item>
+        <item>Rain</item>
+        <item>Snow</item>
+        <item>Atmosphere</item>
+        <item>Clouds</item>
+    </string-array>
+
+    <!-- weather condition value array we change the value equivalent words -->
+    <string-array name="weather_array_value">
+        <item>Thunderstorm</item><!--replace your Thunderstorm text-->
+        <item>Drizzle</item><!--replace your Drizzle text-->
+        <item>Rain</item><!--replace your Rain text-->
+        <item>Snow</item><!--replace your Snow text-->
+        <item>Atmosphere</item><!--replace your Atmosphere text-->
+        <item>Clouds</item><!--replace your Clouds text-->
+    </string-array>
+
+    <!-- weather condition description id do not change-->
+    <string-array name="weather_codition_description_id1">
+        <!---Thunderstorm ids-->
+        <item>thunderstorm with light rain</item><!-- thunderstorm with light rain do not change-->
+        <item>thunderstorm with rain</item><!-- thunderstorm with rain do not change-->
+        <item>thunderstorm with heavy rain</item><!-- thunderstorm with heavy rain do not change-->
+        <item>light thunderstorm</item><!-- light thunderstorm do not change-->
+        <item>thunderstorm</item><!-- thunderstorm do not change-->
+        <item>heavy thunderstorm</item><!-- heavy thunderstorm do not change-->
+        <item>ragged thunderstorm</item><!-- ragged thunderstorm do not change-->
+        <item>thunderstorm with light drizzle</item><!-- thunderstorm with light drizzle do not change-->
+        <item>thunderstorm with drizzle</item><!-- thunderstorm with drizzle do not change-->
+        <item>thunderstorm with heavy drizzle</item><!-- thunderstorm with heavy drizzle do not change-->
+        <!---Drizzle idsdo not change-->
+        <item>light intensity drizzle</item><!-- light intensity drizzle do not change-->
+        <item>drizzle</item><!-- drizzle do not change-->
+        <item>heavy intensity drizzle</item><!-- heavy intensity drizzle do not change-->
+        <item>light intensity drizzle rain</item><!-- light intensity drizzle rain do not change-->
+        <item>drizzle rain</item><!-- drizzle rain do not change-->
+        <item>heavy intensity drizzle rain</item><!-- heavy intensity drizzle rain do not change-->
+        <item>shower drizzle</item><!-- shower drizzle do not change-->
+        <!---Rain ids-->
+        <item>light rain</item><!-- light rain do not change-->
+        <item>moderate rain</item><!-- moderate rain do not change-->
+        <item>heavy intensity rain</item><!-- heavy intensity rain do not change-->
+        <item>very heavy rain</item><!-- very heavy rain do not change-->
+        <item>extreme rain</item><!-- extreme rain do not change-->
+        <item>freezing rain</item><!-- freezing rain do not change-->
+        <item>light intensity shower rain</item><!-- light intensity shower rain do not change-->
+        <item>shower rain</item><!-- shower rain do not change-->
+        <item>heavy intensity shower rain</item><!-- heavy intensity shower rain do not change-->
+        <!---Snow ids-->
+        <item>light snow</item><!-- light snow do not change-->
+        <item>snow</item><!-- snow do not change-->
+        <item>heavy snow</item><!-- heavy snow do not change-->
+        <item>sleet</item><!-- sleet do not change-->
+        <item>shower snow</item><!-- shower snow do not change-->
+        <!---Atmosphere ids-->
+        <item>mist</item><!-- mist do not change-->
+        <item>smoke</item><!-- smoke do not change-->
+        <item>haze</item><!-- haze do not change-->
+        <item>Sand/Dust Whirls</item><!-- Sand/Dust Whirls do not change-->
+        <item>Fog</item><!-- Fog do not change-->
+        <!---Clouds ids-->
+        <item>sky is clear</item><!--sky is clear do not change-->
+        <item>few clouds</item><!--few clouds do not change-->
+        <item>scattered clouds</item><!--scattered clouds do not change-->
+        <item>broken clouds</item><!--broken clouds do not change-->
+        <item>overcast clouds</item><!--overcast cloudsdo not change-->
+    </string-array>
+
+    <!-- weather condition description value array we change the value equivalent words -->
+    <string-array name="weather_codition_description_id_values">
+        <!---Thunderstorm ids-->
+        <item>Thunderstorm with light rain. Stay safe, do not photograph at this time.</item><!-- replace your thunderstorm with light rain text-->
+        <item>Thunderstorm with rain. Stay safe, do not photograph at this time.</item><!-- replace your thunderstorm with rain -->
+        <item>Thunderstorm with heavy rain. Stay safe, do not photograph at this time.</item><!-- replace your thunderstorm with heavy rain text-->
+        <item>Light thunderstorms. Stay safe, do not photograph at this time.</item><!-- replace your light thunderstorm text-->
+        <item>Thunderstorms. Stay safe, do not photograph at this time.</item><!-- replace your thunderstorm text-->
+        <item>Heavy thunderstorms. Stay safe, do not photograph at this time.</item><!-- replace your heavy thunderstorm text-->
+        <item>Scattered thunderstorms. Stay safe, do not photograph at this time.</item><!-- replace your ragged thunderstorm text-->
+        <item>Thunderstorms with light drizzle. Stay safe, do not photograph at this time.</item><!-- replace your thunderstorm with light drizzle text-->
+        <item>Thunderstorms with drizzles. Stay safe, do not photograph at this time.</item><!-- replace your thunderstorm with drizzle text-->
+        <item>Thunderstorms with heavy drizzles. Stay safe, do not photograph at this time.</item><!-- replace your thunderstorm with heavy drizzle text-->
+        <!---Drizzle ids-->
+        <item>Light drizzles. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!-- replace your light intensity drizzle text-->
+        <item>Drizzles. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!-- replace your drizzle text-->
+        <item>Heavy drizzles. It is probably not advisable to photograph at this time, but if you are doing portrait photography, try back lighting the subject for interesting effects.</item><!-- replace your heavy intensity drizzle text-->
+        <item>Light drizzles. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!-- replace your light intensity drizzle rain text-->
+        <item>Drizzles. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!-- replace your drizzle rain text-->
+        <item>Heavy drizzles. It is probably not advisable to photograph at this time, but if you are doing portrait photography, try back lighting the subject for interesting effects. </item><!-- replace your heavy intensity drizzle rain text-->
+        <item>Drizzles. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!--  replace your shower drizzle text-->
+        <!---Rain ids-->
+        <item>Light rain. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!-- replace your light rain text-->
+        <item>Moderate rain. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!-- replace your moderate rain text-->
+        <item>Heavy rain. It is probably not advisable to photograph at this time, but if you are doing portrait photography, try back lighting the subject for interesting effects.</item><!-- replace your heavy intensity rain text-->
+        <item>Very heavy rain. It is probably not advisable to photograph at this time, but if you are doing portrait photography, try back lighting the subject for interesting effects.</item><!-- replace your very heavy rain text-->
+        <item>Extreme rain. Photography is not advisble.</item><!-- replace your extreme rain text-->
+        <item>Freezing rain. Do you really want to be photographing at this time?</item><!-- replace your freezing rain text-->
+        <item>Light rain showers. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!-- replace your light intensity shower rain text-->
+        <item>Rain showers. For portrait photography, try backlighting the subject for an interesting effect. For landscape photography, you may get a very cool mean looking sky.</item><!-- replace your shower rain text-->
+        <item>Heavy rain showers. It is probably not advisable to photograph at this time, but if you are doing portrait photography, try back lighting the subject for interesting effects.</item><!-- replace your heavy intensity shower rain text-->
+        <!---Snow ids-->
+        <item>Light Snow. Stay warm! If you are doing portrait photography, try back lighting the subject for interesting effects. The snow on the ground will act as a big reflector, providing nice light on your subject.</item><!-- replace your light snow text-->
+        <item>Snow. Stay warm! If you are doing portrait photography, try back lighting the subject for interesting effects. The snow on the ground will act as a big reflector, providing nice light on your subject. </item><!-- replace your snow text-->
+        <item>Heavy snow. Stay warm! If you are doing portrait photography, try back lighting the subject for interesting effects. The snow on the ground will act as a big reflector, providing nice light on your subject. </item><!-- replace your heavy snow text-->
+        <item>Sleet. Do you really want to be taking photos at this time?</item><!-- replace your sleet text-->
+        <item>Snow showers. Stay warm! If you are doing portrait photography, try back lighting the subject for interesting effects. The snow on the ground will act as a big reflector, providing nice light on your subject.</item><!-- replace your shower snow text-->
+        <!---Atmosphere ids-->
+        <item>Mist. Not optimal for photography, but if you are doing portrait photography try back lighting with a flash.</item><!-- replace your mist text-->
+        <item>Smoke. Play it safe and steer clear of forest fires.</item><!-- replace your smoke text-->
+        <item>Haze. What a horrible condition! Not optimal for photography.</item><!-- replace your haze text-->
+        <item>Sand or Dust Whirls. Not recommended to use your camera outdoors unless it is insured.</item><!-- replace your Sand/Dust Whirls text-->
+        <item>Fog. This could be interesting. Get creative!</item><!-- replace your Fog text-->
+        <!---Clouds ids-->
+        <item>Clear sky. Bring fill flash or diffusers for portrait photography. For landscape photography, the sky will probably be boring.</item><!-- replace yoursky is clear text-->
+        <item>Few clouds. May prove challenging for portrait photography with the light changing very frequently. Bring a fill flash or diffusers. For landscape photography the weather is ideal, but bring a polarizing filter to make the clouds really pop, or a graduated ND filter for sunset.</item><!-- replace yourfew clouds text-->
+        <item>Scattered clouds. May prove challenging for portrait photography with the light changing frequently. The sky should be interesting for landscape photography. Bring a polarizing filter to make the clouds really pop, or a graduated ND filter for sunset.</item><!-- replace yourscattered clouds text-->
+        <item>Broken clouds. Should be good for portrait photography, but may be boring for landscape photography. </item><!-- replace yourbroken clouds text-->
+        <item>Overcast. Perfect for easy portrait photography with soft light, but usually boring for landscape photography.</item><!-- replace yourovercast clouds text-->
+    </string-array>
+
+</resources>

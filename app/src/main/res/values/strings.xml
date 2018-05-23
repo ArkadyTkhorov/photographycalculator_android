@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Material Tabs</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="one">ONE</string>
+    <string name="eight">EIGHT</string>
+    <string name="five">FIVE</string>
+    <string name="four">FOUR</string>
+    <string name="nine">NINE</string>
+    <string name="seven">SEVEN</string>
+    <string name="six">SIX</string>
+
+    <string name="title_activity_scrollable_tabs">Scrollable Tabs</string>
+    <string name="title_activity_simple_tabs">Simple Tabs</string>
+    <string name="btn_simple_tabs">Simple Tabs</string>
+    <string name="btn_scrollable_tabs">Scrollable Tabs</string>
+    <string name="btn_icon_text_tabs">Icon &amp; Text Tabs</string>
+    <string name="btn_icon_tabs">Only Icon Tabs</string>
+    <string name="btn_pinned_top_tabs">Pinned To Top Tabs</string>
+    <string name="title_activity_icon_text_tabs">Icon and Text Tabs</string>
+    <string name="title_activity_icon_tabs">Icon Tabs</string>
+    <string name="btn_custom_icon_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_custom_view_icon_text_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_pinned_top_tabs">Pin Top Tabs</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="calculate_btn">Calculate</string>
+    <string name="clear_btn">Clear Values</string>
+    <string name="calc">CALC</string>
+    <string name="uncalc">UNCALC</string>
+
+    <string name="focallength">Focal Length</string>
+    <string name="sensorcropfactor">Sensor Crop Factor</string>
+    <string name="sensorratio">Sensor Ratio</string>
+    <string name="horizontalfieldofview">Horizontal Field of View</string>
+    <string name="verticalfieldofview">Vertical Field of View</string>
+    <string name="diagonalfieldofview">Diagonal Field of View</string>
+    <string name="fov_hint">All calculated FoV values are in degrees.</string>
+
+
+    <string name="aspect_hint">To use aspect ratio calculator, enter desired ratio, change pixel size, and click calculator to see the correct size.</string>
+    <string name="aspectratio">Aspect Ratio</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="imagesize">Image Size</string>
+    <string name="pixels">Pixels</string>
+    <string name="sensor_type_last">1\"</string>
+    <string name="angle">Angle</string>
+    <string name="inclination">Inclination</string>
+    <string name="roof_pitch">Roof pitch</string>
+    <string name="astrophotography_hint">The Astrophotography Calculator will give you proper exposure time to photograph the night sky without star trails.\n Note that light pollution and other variables may affect the accuracy of the results.</string>
+    <string name="sensor">Sensor</string>
+    <string name="aperture">Aperture</string>
+    <string name="iso">ISO</string>
+    <string name="recommendedshutterspeed">Recommended Shutter Speed:</string>
+    <string name="durationmin">DURATION (SEC):</string>
+    <string name="frames">FRAMES:</string>
+    <string name="select">Select</string>
+    <string name="subjectdistance">Subject Distance</string>
+    <string name="lensfocallength">Lens Focal Length</string>
+    <string name="lensaperture">Lens Aperture</string>
+    <string name="circleofconfusion">Circle of Confusion</string>
+    <string name="nearfocus">Near Focus(Distance)</string>
+    <string name="farfocus">Far Focus(Distance)</string>
+    <string name="depthoffield">Depth of Field</string>
+    <string name="depthoffocus">Depth of Focus</string>
+    <string name="delete_numbers">"\u21D0"</string>
+    <string name="viscosity_low">Low</string>
+    <string name="viscosity_medium">Medium</string>
+    <string name="viscosity_high">High</string>
+    <string name="config_switch_vertically">Invert vertically</string>
+    <string name="config_switch_horizontally">Invert horizontally</string>
+    <string name="config_rotate_axis">Rotate axis</string>
+    <string name="dslr_hint">For circle of confusion, most full-frame (35mm) DSLR cameras are 0.030mm, and most 1.6x crop factor DSLR cameras are 0.019.</string>
+
+    <string name="shutterspeed">Shutter Speed</string>
+    <string name="exposure_hint">Instructions\n1) Enter your known exposure values.\n2) Tap on CALC button to lock your values in.\n3) Adjust one of your values.\n4) Tap on a different value to see it re-calculate.\n5) You can tap on UNCALC button to start over.</string>
+    <string name="enteryourimagesize">Enter your image size:</string>
+    <string name="calculatedmegapixels">Calculated megapixels:</string>
+    <string name="maximumprintsizewithnoqualityloss">Maximum print size with no quality loss:</string>
+    <string name="maximumprintsizewithminimalqualityloss">Maximum print size with minimal quality loss:</string>
+    <string name="maximumprintsizewithacceptablequalityloss">Maximum print size with acceptable quality loss:</string>
+    <string name="incheswide">inches wide.</string>
+    <string name="incheshigh">inches high.</string>
+    <string name="print_hint">Note: Maximum print size with no quality loss is computed at 300dpi. Maximum print size with minimal quality loss is computed at 150 dpi. It all depends on how close you are to the print. For example, your result might be a maximum of 8x10 inches, but you may still print billboard size with excellent quality. The difference is, you are viewing said billboard from hundreds of feet away in your car. For most wall art such as posters, canvasses, standouts, etc, use the minimal quality loss calculation. For hand-held prints, use the no quality loss calculation. Maximum print size with acceptable quality loss is good for judging the maximum print size a client could make from a low-resolution proof image.</string>
+
+    <string name="squared_two">"X\u00B2"</string>
+    <string name="qube">"X\u00B3"</string>
+    <string name="square_root_symbol">√¯¯</string>
+    <string name="pi">"\u03C0"</string>
+    <string name="degree_celsius">"\u2103"</string>
+    <string name="selectiso">Select ISO:</string>
+    <string name="enterguidenumber">Enter Guide Number:</string>
+    <string name="enteraperture">Enter Aperture:</string>
+    <string name="calculaterange">Calculate Range</string>
+    <string name="range">Range</string>
+
+    <string name="coc">Circle of confusion</string>
+    <string name="entertwo">Enter two values to get the calculation for the third. For example, entering in a duration of 60 seconds, at 60 frames per second, will get you a total of 60 frames.</string>
+</resources>

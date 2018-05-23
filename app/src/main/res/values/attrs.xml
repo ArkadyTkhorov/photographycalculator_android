@@ -1,0 +1,27 @@
+<resources>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    -<declare-styleable name="Moon">
+
+    <attr name="blured_side" format="boolean"/>
+
+    <attr name="blur_ratio" format="float"/>
+
+</declare-styleable>
+
+    -<declare-styleable name="HorizontalListView">
+
+    <attr name="dividerWidth" format="dimension"/>
+
+    <attr name="android:divider"/>
+
+    <attr name="android:requiresFadingEdge"/>
+
+    <attr name="android:fadingEdgeLength"/>
+
+</declare-styleable>
+
+</resources>
